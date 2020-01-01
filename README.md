@@ -8,7 +8,7 @@ You can refer to [This Tutorial (Chinese)](http://pc-dos.wikidot.com/convert-sto
 
 ## Components
 
-`UnpackAll.bat` unpacks all the Appx files extracted from a AppxBundle.<br>
+`UnpackAll.bat` unpacks all the Appx files extracted from a AppxBundle. It requires `7z.exe` to work.<br>
 `RemoveStoreRelatedFiles.bat` removes Microsoft Store related files. This file must be copied to the output directory of `UnpackAll.bat`<br>
 `PackAll.bat` packes all modified files in to separated Appx files.
 

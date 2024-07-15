@@ -7,6 +7,7 @@ echo Press any key to continue...
 pause > nul
 del /s MDILFileList.xml
 del /s AppxSignature.p7x
+rd /s /q AppxMetadata
 for /d %%d in (*) do (rd /s /q %%d\AppxMetadata)
 echo=
 echo Operation finished, press any key to exit.
